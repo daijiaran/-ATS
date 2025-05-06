@@ -379,7 +379,9 @@ struct HomePage {
     }
     let result = '';
     try {
-      result = getContext(this).resourceManager.getStringSync(resource.id);
+      const uiContext: UIContext | undefined = AppStorage.get('uiContext');
+      let context = uiContext!.getHostContext()!;
+      result = context.resourceManager.getStringSync(resource.id);
     } catch (error) {
       Logger.error('[CalculateModel] getResourceString fail: ' + JSON.stringify(error))
     }
