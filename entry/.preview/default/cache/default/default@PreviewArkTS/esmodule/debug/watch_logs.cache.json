@@ -1,0 +1,1 @@
+[{"time":"2025-12-29T02:37:19.746Z","category":"etsTransform","level":"warn","msg":"\u001b[33mArkTS:WARN File: F:/honmenOSProject/SimpleCalculator/entry/src/main/ets/entryability/EntryAbility.ts:24:23\n Cannot find name 'UIContext'.\u001b[39m","type":"plugin_log","fileId":"F:/honmenOSProject/SimpleCalculator/entry/src/main/ets/entryability/EntryAbility.ts"}]

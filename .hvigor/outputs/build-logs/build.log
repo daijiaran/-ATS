@@ -1,0 +1,962 @@
+[2025-12-29T10:36:24.072] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-12-29T10:36:24.362] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined
+}
+[2025-12-29T10:36:25.499] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-12-29T10:36:25.353] [DEBUG] debug-file - hvigorfile, require result:  { appTasks: [Getter] }
+[2025-12-29T10:36:25.543] [DEBUG] debug-file - Project task initialization takes 4 ms 
+[2025-12-29T10:36:25.558] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2025-12-29T10:36:25.502] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2025-12-29T10:36:25.573] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-12-29T10:36:25.564] [DEBUG] debug-file - project has submodules:entry
+[2025-12-29T10:36:25.509] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-12-29T10:36:24.073] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.5', dependencies: {} }
+[2025-12-29T10:36:25.580] [DEBUG] debug-file - entry : clean cost memory 0.10929107666015625
+[2025-12-29T10:36:24.363] [DEBUG] debug-file - Since current hvigor version 6.21.2-rc.37 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2025-12-29T10:36:25.597] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-12-29T10:36:25.499] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-12-29T10:36:25.354] [DEBUG] debug-file - hvigorfile, binding system plugins { appTasks: [Getter] }
+[2025-12-29T10:36:25.543] [DEBUG] debug-file - hvigorfile, resolve finished F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+[2025-12-29T10:36:25.558] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:36:25.503] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-12-29T10:36:25.574] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-12-29T10:36:25.565] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-12-29T10:36:25.538] [DEBUG] debug-file - Sdk init in 34 ms 
+[2025-12-29T10:36:24.075] [DEBUG] debug-file - env: daemon=false
+[2025-12-29T10:36:24.363] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2025-12-29T10:36:25.580] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 223 ms 
+[2025-12-29T10:36:25.598] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-12-29T10:36:25.499] [DEBUG] debug-file - Product 'default' build option initialized
+[2025-12-29T10:36:25.543] [DEBUG] debug-file - hvigorfile, resolving F:\honmenOSProject\SimpleCalculator\entry\hvigorfile.ts
+[2025-12-29T10:36:25.559] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:36:25.505] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-12-29T10:36:25.574] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-12-29T10:36:25.568] [DEBUG] debug-file - load to the disk finished
+[2025-12-29T10:36:24.075] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc
+[2025-12-29T10:36:24.364] [DEBUG] debug-file - hvigorfile, resolving F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+[2025-12-29T10:36:25.581] [INFO] debug-file - Finished :entry:clean... after 2 ms 
+[2025-12-29T10:36:25.600] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2025-12-29T10:36:25.500] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-12-29T10:36:25.548] [DEBUG] debug-file - hvigorfile, require result:  { hapTasks: [Getter] }
+[2025-12-29T10:36:25.559] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:36:25.507] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-12-29T10:36:25.577] [DEBUG] debug-file - Configuration phase cost:1 s 214 ms 
+[2025-12-29T10:36:25.568] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-12-29T10:36:25.581] [DEBUG] debug-file - Executing task ::clean
+[2025-12-29T10:36:25.600] [DEBUG] debug-file - Clear worker 0.
+[2025-12-29T10:36:25.548] [DEBUG] debug-file - hvigorfile, binding system plugins { hapTasks: [Getter] }
+[2025-12-29T10:36:25.559] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-12-29T10:36:25.578] [DEBUG] debug-file - Configuration task cost before running: 1 s 221 ms 
+[2025-12-29T10:36:25.570] [DEBUG] debug-file - Module SimpleCalculator Collected Dependency: 
+[2025-12-29T10:36:25.581] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-12-29T10:36:25.600] [DEBUG] debug-file - Worker 0 has been cleared.
+[2025-12-29T10:36:25.549] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- F:\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2025-12-29T10:36:25.559] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:36:25.579] [DEBUG] debug-file - Executing task :entry:clean
+[2025-12-29T10:36:25.581] [DEBUG] debug-file - SimpleCalculator : clean cost memory 0.01967620849609375
+[2025-12-29T10:36:25.571] [DEBUG] debug-file - Module SimpleCalculator's total dependency: 0
+[2025-12-29T10:36:25.600] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-12-29T10:36:25.559] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:36:25.579] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-12-29T10:36:25.581] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 224 ms 
+[2025-12-29T10:36:25.600] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-12-29T10:36:25.559] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:36:25.582] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2025-12-29T10:36:25.600] [DEBUG] debug-file - Clear worker 1.
+[2025-12-29T10:36:25.559] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-12-29T10:36:25.582] [DEBUG] debug-file - Executing task :entry:init
+[2025-12-29T10:36:25.600] [DEBUG] debug-file - Worker 1 has been cleared.
+[2025-12-29T10:36:25.559] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:36:25.600] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-12-29T10:36:25.582] [DEBUG] debug-file - entry : init cost memory 0.01267242431640625
+[2025-12-29T10:36:25.559] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:36:25.600] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-12-29T10:36:25.582] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 225 ms 
+[2025-12-29T10:36:25.559] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:36:25.600] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-12-29T10:36:25.582] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-12-29T10:36:25.603] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-12-29T10:36:25.559] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-12-29T10:36:25.582] [DEBUG] debug-file - Executing task ::init
+[2025-12-29T10:36:25.605] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-12-29T10:36:25.563] [DEBUG] debug-file - Module entry task initialization takes 4 ms 
+[2025-12-29T10:36:25.582] [DEBUG] debug-file - SimpleCalculator : init cost memory 0.01145172119140625
+[2025-12-29T10:36:25.605] [DEBUG] debug-file - Current worker pool is terminated.
+[2025-12-29T10:36:25.563] [DEBUG] debug-file - hvigorfile, resolve finished F:\honmenOSProject\SimpleCalculator\entry\hvigorfile.ts
+[2025-12-29T10:36:25.582] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 225 ms 
+[2025-12-29T10:36:25.582] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-12-29T10:36:25.587] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-12-29T10:36:25.595] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-12-29T10:36:25.595] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-12-29T10:37:13.372] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-12-29T10:37:13.404] [DEBUG] debug-file - env: daemon=true
+[2025-12-29T10:37:13.372] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.5', dependencies: {} }
+[2025-12-29T10:37:13.838] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-12-29T10:37:13.842] [DEBUG] debug-file - java daemon started at port 45050 pid 19680
+[2025-12-29T10:37:13.869] [DEBUG] debug-file - session manager: set active socket. socketId=OYCacKEmxooFg3FDAAAB
+[2025-12-29T10:37:14.375] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-12-29T10:37:14.381] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined
+}
+[2025-12-29T10:37:14.382] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2025-12-29T10:37:14.383] [DEBUG] debug-file - hvigorfile, resolving F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+[2025-12-29T10:37:15.372] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-12-29T10:37:15.372] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-12-29T10:37:15.554] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-12-29T10:37:15.554] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-12-29T10:37:15.554] [DEBUG] debug-file - Product 'default' build option initialized
+[2025-12-29T10:37:15.554] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-12-29T10:37:15.556] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2025-12-29T10:37:15.559] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-12-29T10:37:15.561] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-12-29T10:37:15.565] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-12-29T10:37:15.566] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-12-29T10:37:15.598] [DEBUG] debug-file - Sdk init in 38 ms 
+[2025-12-29T10:37:15.607] [DEBUG] debug-file - Project task initialization takes 6 ms 
+[2025-12-29T10:37:15.607] [DEBUG] debug-file - hvigorfile, resolve finished F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+[2025-12-29T10:37:15.608] [DEBUG] debug-file - hvigorfile, resolving F:\honmenOSProject\SimpleCalculator\entry\hvigorfile.ts
+[2025-12-29T10:37:15.612] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-12-29T10:37:15.612] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-12-29T10:37:15.613] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2025-12-29T10:37:15.626] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2025-12-29T10:37:15.626] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:37:15.626] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:37:15.626] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:37:15.626] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-12-29T10:37:15.626] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:37:15.627] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:37:15.627] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:37:15.627] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-12-29T10:37:15.627] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:37:15.627] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:37:15.627] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:37:15.627] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-12-29T10:37:15.632] [DEBUG] debug-file - Module entry task initialization takes 4 ms 
+[2025-12-29T10:37:15.632] [DEBUG] debug-file - hvigorfile, resolve finished F:\honmenOSProject\SimpleCalculator\entry\hvigorfile.ts
+[2025-12-29T10:37:15.649] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 17 ms 
+[2025-12-29T10:37:15.649] [DEBUG] debug-file - project has submodules:entry
+[2025-12-29T10:37:15.650] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-12-29T10:37:15.657] [DEBUG] debug-file - load to the disk finished
+[2025-12-29T10:37:15.658] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-12-29T10:37:15.661] [DEBUG] debug-file - Module SimpleCalculator Collected Dependency: 
+[2025-12-29T10:37:15.661] [DEBUG] debug-file - Module SimpleCalculator's total dependency: 0
+[2025-12-29T10:37:15.663] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-12-29T10:37:15.664] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-12-29T10:37:15.664] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-12-29T10:37:15.668] [DEBUG] debug-file - Configuration phase cost:1 s 287 ms 
+[2025-12-29T10:37:15.670] [DEBUG] debug-file - Configuration task cost before running: 1 s 293 ms 
+[2025-12-29T10:37:15.670] [DEBUG] debug-file - Executing task :entry:init
+[2025-12-29T10:37:15.670] [DEBUG] debug-file - entry : init cost memory 0.01801300048828125
+[2025-12-29T10:37:15.670] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 294 ms 
+[2025-12-29T10:37:15.671] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-12-29T10:37:15.671] [DEBUG] debug-file - Executing task ::init
+[2025-12-29T10:37:15.671] [DEBUG] debug-file - SimpleCalculator : init cost memory 0.015350341796875
+[2025-12-29T10:37:15.672] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 295 ms 
+[2025-12-29T10:37:15.672] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-12-29T10:37:15.678] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-12-29T10:37:15.683] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-12-29T10:37:15.685] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-12-29T10:37:15.686] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-12-29T10:37:15.683] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-12-29T10:37:15.684] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-12-29T10:37:15.688] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-12-29T10:37:15.690] [DEBUG] debug-file - Cleanup worker 0.
+[2025-12-29T10:37:15.691] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-12-29T10:37:15.691] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-12-29T10:37:15.691] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-12-29T10:37:15.691] [DEBUG] debug-file - Cleanup worker 1.
+[2025-12-29T10:37:15.691] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-12-29T10:37:15.691] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-12-29T10:37:15.691] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-12-29T10:37:15.692] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-12-29T10:37:15.694] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-12-29T10:37:15.694] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-12-29T10:37:15.695] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-12-29T10:37:15.696] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-12-29T10:37:15.950] [DEBUG] debug-file - session manager: set active socket. socketId=tvIu5ljgQq5N3fejAAAD
+[2025-12-29T10:37:15.970] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-12-29T10:37:15.973] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined
+}
+[2025-12-29T10:37:15.973] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2025-12-29T10:37:15.973] [DEBUG] debug-file - hvigorfile, resolving F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+[2025-12-29T10:37:15.976] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-12-29T10:37:15.977] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-12-29T10:37:15.979] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-12-29T10:37:15.979] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-12-29T10:37:15.979] [DEBUG] debug-file - Product 'default' build option initialized
+[2025-12-29T10:37:15.979] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-12-29T10:37:15.979] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2025-12-29T10:37:15.980] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-12-29T10:37:15.981] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-12-29T10:37:16.002] [DEBUG] debug-file - Sdk init in 22 ms 
+[2025-12-29T10:37:16.004] [DEBUG] debug-file - Project task initialization takes 2 ms 
+[2025-12-29T10:37:16.004] [DEBUG] debug-file - hvigorfile, resolve finished F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+[2025-12-29T10:37:16.004] [DEBUG] debug-file - hvigorfile, resolving F:\honmenOSProject\SimpleCalculator\entry\hvigorfile.ts
+[2025-12-29T10:37:16.007] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-12-29T10:37:16.007] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-12-29T10:37:16.007] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2025-12-29T10:37:16.008] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2025-12-29T10:37:16.008] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:37:16.008] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:37:16.008] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:37:16.009] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-12-29T10:37:16.009] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:37:16.009] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:37:16.009] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:37:16.009] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-12-29T10:37:16.009] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:37:16.009] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:37:16.009] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:37:16.009] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-12-29T10:37:16.010] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-12-29T10:37:16.010] [DEBUG] debug-file - hvigorfile, resolve finished F:\honmenOSProject\SimpleCalculator\entry\hvigorfile.ts
+[2025-12-29T10:37:16.026] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 17 ms 
+[2025-12-29T10:37:16.026] [DEBUG] debug-file - project has submodules:entry
+[2025-12-29T10:37:16.027] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-12-29T10:37:16.030] [DEBUG] debug-file - load to the disk finished
+[2025-12-29T10:37:16.031] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-12-29T10:37:16.031] [DEBUG] debug-file - Module SimpleCalculator Collected Dependency: 
+[2025-12-29T10:37:16.031] [DEBUG] debug-file - Module SimpleCalculator's total dependency: 0
+[2025-12-29T10:37:16.032] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-12-29T10:37:16.033] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-12-29T10:37:16.033] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-12-29T10:37:16.033] [DEBUG] debug-file - Configuration phase cost:61 ms 
+[2025-12-29T10:37:16.034] [DEBUG] debug-file - Configuration task cost before running: 63 ms 
+[2025-12-29T10:37:16.038] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-12-29T10:37:16.039] [DEBUG] debug-file - Task 'entry:default@PreBuild' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:16.135] [DEBUG] debug-file - current product is not Atomic service.
+[2025-12-29T10:37:16.135] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [ { JAVA_HOME: 'F:\\DevEco Studio\\jbr' }, { CLASSPATH: undefined } ]
+[2025-12-29T10:37:16.135] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [ { NODE_HOME: 'F:\\DevEco Studio\\tools\\node' } ]
+[2025-12-29T10:37:16.136] [DEBUG] debug-file - entry : default@PreBuild cost memory 5.7434234619140625
+[2025-12-29T10:37:16.136] [DEBUG] debug-file - runTaskFromQueue task cost before running: 165 ms 
+[2025-12-29T10:37:16.138] [INFO] debug-file - Finished :entry:default@PreBuild... after 99 ms 
+[2025-12-29T10:37:16.140] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2025-12-29T10:37:16.140] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:16.141] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.073394775390625
+[2025-12-29T10:37:16.141] [DEBUG] debug-file - runTaskFromQueue task cost before running: 170 ms 
+[2025-12-29T10:37:16.141] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 2 ms 
+[2025-12-29T10:37:16.143] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-12-29T10:37:16.143] [DEBUG] debug-file - Task 'entry:default@MergeProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:16.144] [DEBUG] debug-file - Change app api release type with 'Release'
+[2025-12-29T10:37:16.144] [DEBUG] debug-file - Change app compile API version with '6.0.1.116'
+[2025-12-29T10:37:16.144] [DEBUG] debug-file - Change app target API version with '60000020'
+[2025-12-29T10:37:16.144] [DEBUG] debug-file - Change app minimum API version with '50005017'
+[2025-12-29T10:37:16.144] [DEBUG] debug-file - Use cli appEnvironment
+[2025-12-29T10:37:16.146] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.15482330322265625
+[2025-12-29T10:37:16.146] [DEBUG] debug-file - runTaskFromQueue task cost before running: 175 ms 
+[2025-12-29T10:37:16.146] [INFO] debug-file - Finished :entry:default@MergeProfile... after 4 ms 
+[2025-12-29T10:37:16.147] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-12-29T10:37:16.148] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:16.149] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.06415557861328125
+[2025-12-29T10:37:16.149] [DEBUG] debug-file - runTaskFromQueue task cost before running: 178 ms 
+[2025-12-29T10:37:16.149] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 2 ms 
+[2025-12-29T10:37:16.150] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-12-29T10:37:16.150] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01639556884765625
+[2025-12-29T10:37:16.151] [DEBUG] debug-file - runTaskFromQueue task cost before running: 180 ms 
+[2025-12-29T10:37:16.151] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-12-29T10:37:16.152] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-12-29T10:37:16.164] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:16.164] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.49361419677734375
+[2025-12-29T10:37:16.164] [DEBUG] debug-file - runTaskFromQueue task cost before running: 194 ms 
+[2025-12-29T10:37:16.165] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 13 ms 
+[2025-12-29T10:37:16.166] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-12-29T10:37:16.167] [DEBUG] debug-file - Task 'entry:default@ProcessProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:16.168] [DEBUG] debug-file - [
+  'F:\\DevEco Studio\\tools\\node\\node.exe',
+  'F:\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '17'
+]
+[2025-12-29T10:37:16.231] [DEBUG] debug-file - 12.0.6.0
+[2025-12-29T10:37:16.233] [DEBUG] debug-file - No need to add fake ui ability because of abilityPath does not exist.
+[2025-12-29T10:37:16.233] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 2.02899169921875
+[2025-12-29T10:37:16.233] [DEBUG] debug-file - runTaskFromQueue task cost before running: 263 ms 
+[2025-12-29T10:37:16.234] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 68 ms 
+[2025-12-29T10:37:16.235] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-12-29T10:37:16.238] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.07407379150390625
+[2025-12-29T10:37:16.238] [DEBUG] debug-file - runTaskFromQueue task cost before running: 267 ms 
+[2025-12-29T10:37:16.239] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 3 ms 
+[2025-12-29T10:37:16.241] [DEBUG] debug-file - Executing task :entry:default@ProcessShareConfig
+[2025-12-29T10:37:16.242] [DEBUG] debug-file - entry : default@ProcessShareConfig cost memory 0.30782318115234375
+[2025-12-29T10:37:16.243] [DEBUG] debug-file - runTaskFromQueue task cost before running: 272 ms 
+[2025-12-29T10:37:16.243] [INFO] debug-file - Finished :entry:default@ProcessShareConfig... after 3 ms 
+[2025-12-29T10:37:16.244] [DEBUG] debug-file - Executing task :entry:default@ProcessStartupConfig
+[2025-12-29T10:37:16.245] [DEBUG] debug-file - Task 'entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:16.246] [DEBUG] debug-file - entry : default@ProcessStartupConfig cost memory 0.06017303466796875
+[2025-12-29T10:37:16.246] [DEBUG] debug-file - runTaskFromQueue task cost before running: 275 ms 
+[2025-12-29T10:37:16.246] [INFO] debug-file - Finished :entry:default@ProcessStartupConfig... after 2 ms 
+[2025-12-29T10:37:16.247] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
+[2025-12-29T10:37:16.248] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
+[2025-12-29T10:37:16.248] [DEBUG] debug-file - Task 'entry:default@PreviewProcessResource' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:16.248] [DEBUG] debug-file - entry : default@PreviewProcessResource cost memory 0.0550994873046875
+[2025-12-29T10:37:16.248] [DEBUG] debug-file - runTaskFromQueue task cost before running: 277 ms 
+[2025-12-29T10:37:16.249] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 2 ms 
+[2025-12-29T10:37:16.250] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-12-29T10:37:16.251] [DEBUG] debug-file - Task 'entry:default@GenerateLoaderJson' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:16.256] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.5450592041015625
+[2025-12-29T10:37:16.256] [DEBUG] debug-file - runTaskFromQueue task cost before running: 285 ms 
+[2025-12-29T10:37:16.257] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 7 ms 
+[2025-12-29T10:37:16.258] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
+[2025-12-29T10:37:16.259] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
+[2025-12-29T10:37:16.262] [DEBUG] debug-file - Use tool [F:\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'F:\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-x',
+  'F:\\honmenOSProject\\SimpleCalculator\\AppScope\\resources',
+  '-o',
+  'F:\\honmenOSProject\\SimpleCalculator\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled'
+]
+[2025-12-29T10:37:16.263] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 219783168,
+  heapTotal: 167669760,
+  heapUsed: 142045552,
+  external: 3207017,
+  arrayBuffers: 174770
+} os memoryUsage :12.989826202392578
+[2025-12-29T10:37:16.281] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-12-29T10:37:16.284] [DEBUG] debug-file - Use tool [F:\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'F:\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-x',
+  'F:\\honmenOSProject\\SimpleCalculator\\entry\\src\\main\\resources',
+  '-o',
+  'F:\\honmenOSProject\\SimpleCalculator\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled'
+]
+[2025-12-29T10:37:16.284] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 218415104,
+  heapTotal: 167669760,
+  heapUsed: 142193584,
+  external: 3207143,
+  arrayBuffers: 174911
+} os memoryUsage :12.989315032958984
+[2025-12-29T10:37:16.305] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-12-29T10:37:16.311] [DEBUG] debug-file - Use tool [F:\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'F:\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-m',
+  'entry',
+  '-f',
+  '-j',
+  'F:\\honmenOSProject\\SimpleCalculator\\entry\\.preview\\default\\intermediates\\process_profile\\default\\module.json',
+  '-p',
+  'c***r',
+  '-r',
+  'F:\\honmenOSProject\\SimpleCalculator\\entry\\.preview\\default\\generated\\r\\default\\ResourceTable.h',
+  '-z',
+  '--ids',
+  'F:\\honmenOSProject\\SimpleCalculator\\entry\\.preview\\default\\intermediates\\res\\default\\ids_map',
+  '-i',
+  'F:\\honmenOSProject\\SimpleCalculator\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled',
+  '-i',
+  'F:\\honmenOSProject\\SimpleCalculator\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled',
+  '-o',
+  'F:\\honmenOSProject\\SimpleCalculator\\entry\\.preview\\default\\intermediates\\res\\default',
+  '--defined-sysids',
+  'F:\\DevEco Studio\\sdk\\default\\hms\\toolchains\\id_defined.json'
+]
+[2025-12-29T10:37:16.311] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 218521600,
+  heapTotal: 167931904,
+  heapUsed: 142603344,
+  external: 3207269,
+  arrayBuffers: 175873
+} os memoryUsage :12.983757019042969
+[2025-12-29T10:37:16.371] [DEBUG] debug-file - Info: hardware concurrency count is : 16
+Info: thread count is : 16
+
+[2025-12-29T10:37:16.372] [DEBUG] debug-file - Info: thread pool is started
+
+[2025-12-29T10:37:16.375] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-12-29T10:37:16.376] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2025-12-29T10:37:16.379] [DEBUG] debug-file - entry : default@PreviewCompileResource cost memory 1.0998764038085938
+[2025-12-29T10:37:16.380] [DEBUG] debug-file - runTaskFromQueue task cost before running: 409 ms 
+[2025-12-29T10:37:16.380] [INFO] debug-file - Finished :entry:default@PreviewCompileResource... after 121 ms 
+[2025-12-29T10:37:16.382] [DEBUG] debug-file - Executing task :entry:default@PreviewHookCompileResource
+[2025-12-29T10:37:16.382] [DEBUG] debug-file - entry : default@PreviewHookCompileResource cost memory 0.01810455322265625
+[2025-12-29T10:37:16.383] [DEBUG] debug-file - runTaskFromQueue task cost before running: 412 ms 
+[2025-12-29T10:37:16.383] [INFO] debug-file - Finished :entry:default@PreviewHookCompileResource... after 1 ms 
+[2025-12-29T10:37:16.384] [DEBUG] debug-file - Executing task :entry:default@CopyPreviewProfile
+[2025-12-29T10:37:16.389] [DEBUG] debug-file - entry : default@CopyPreviewProfile cost memory 0.1173858642578125
+[2025-12-29T10:37:16.389] [DEBUG] debug-file - runTaskFromQueue task cost before running: 418 ms 
+[2025-12-29T10:37:16.390] [INFO] debug-file - Finished :entry:default@CopyPreviewProfile... after 6 ms 
+[2025-12-29T10:37:16.390] [DEBUG] debug-file - Executing task :entry:default@ReplacePreviewerPage
+[2025-12-29T10:37:16.391] [DEBUG] debug-file - entry : default@ReplacePreviewerPage cost memory 0.0179595947265625
+[2025-12-29T10:37:16.391] [DEBUG] debug-file - runTaskFromQueue task cost before running: 420 ms 
+[2025-12-29T10:37:16.391] [INFO] debug-file - Finished :entry:default@ReplacePreviewerPage... after 1 ms 
+[2025-12-29T10:37:16.391] [DEBUG] debug-file - Executing task :entry:buildPreviewerResource
+[2025-12-29T10:37:16.392] [DEBUG] debug-file - entry : buildPreviewerResource cost memory 0.0145263671875
+[2025-12-29T10:37:16.392] [DEBUG] debug-file - runTaskFromQueue task cost before running: 421 ms 
+[2025-12-29T10:37:16.392] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
+[2025-12-29T10:37:16.393] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
+[2025-12-29T10:37:16.395] [DEBUG] debug-file - entry : default@PreviewUpdateAssets cost memory 0.06969451904296875
+[2025-12-29T10:37:16.395] [DEBUG] debug-file - runTaskFromQueue task cost before running: 424 ms 
+[2025-12-29T10:37:16.396] [INFO] debug-file - Finished :entry:default@PreviewUpdateAssets... after 3 ms 
+[2025-12-29T10:37:16.397] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
+[2025-12-29T10:37:16.397] [DEBUG] debug-file - obfuscationOptions: undefined
+[2025-12-29T10:37:16.398] [DEBUG] debug-file - Task 'entry:default@PreviewArkTS' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:16.409] [DEBUG] debug-file - session manager: binding session. socketId=tvIu5ljgQq5N3fejAAAD, threadId=1@1.
+[2025-12-29T10:37:16.409] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 1.4177780151367188
+[2025-12-29T10:37:17.895] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-12-29T10:37:17.896] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-12-29T10:37:19.746] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-12-29T10:37:19.748] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-12-29T10:37:21.164] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-12-29T10:37:21.165] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-12-29T10:37:21.165] [DEBUG] debug-file - Ark compile finished.
+[2025-12-29T10:37:21.167] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 4 s 769 ms 
+[2025-12-29T10:37:21.167] [DEBUG] debug-file - Executing task :entry:PreviewBuild
+[2025-12-29T10:37:21.167] [DEBUG] debug-file - entry : PreviewBuild cost memory 0.01427459716796875
+[2025-12-29T10:37:21.167] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 196 ms 
+[2025-12-29T10:37:21.168] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
+[2025-12-29T10:37:21.172] [INFO] debug-file - BUILD SUCCESSFUL in 5 s 201 ms 
+[2025-12-29T10:37:21.173] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\honmenOSProject\SimpleCalculator\AppScope\app.json5 cache by regenerate.
+[2025-12-29T10:37:21.173] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\honmenOSProject\SimpleCalculator\entry\src\main\module.json5 cache by regenerate.
+[2025-12-29T10:37:21.174] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\honmenOSProject\SimpleCalculator\build-profile.json5 cache by regenerate.
+[2025-12-29T10:37:21.174] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\honmenOSProject\SimpleCalculator\entry\build-profile.json5 cache by regenerate.
+[2025-12-29T10:37:21.174] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\honmenOSProject\SimpleCalculator\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2025-12-29T10:37:21.174] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\honmenOSProject\SimpleCalculator\hvigor\hvigor-config.json5 cache by regenerate.
+[2025-12-29T10:37:21.174] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\honmenOSProject\SimpleCalculator\entry\oh-package.json5 cache by regenerate.
+[2025-12-29T10:37:21.174] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\honmenOSProject\SimpleCalculator\oh-package.json5 cache by regenerate.
+[2025-12-29T10:37:21.174] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:2 ms .
+[2025-12-29T10:37:21.174] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\generated\profile\default\ModuleInfo.ts cache.
+[2025-12-29T10:37:21.175] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2025-12-29T10:37:21.175] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:F:\honmenOSProject\SimpleCalculator\AppScope\app.json5 cache by regenerate.
+[2025-12-29T10:37:21.175] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:F:\honmenOSProject\SimpleCalculator\build-profile.json5 cache by regenerate.
+[2025-12-29T10:37:21.175] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:F:\honmenOSProject\SimpleCalculator\entry\src\main\module.json5 cache by regenerate.
+[2025-12-29T10:37:21.175] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\merge_profile\default\module.json cache.
+[2025-12-29T10:37:21.175] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:1 ms .
+[2025-12-29T10:37:21.175] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:F:\honmenOSProject\SimpleCalculator\AppScope\app.json5 cache by regenerate.
+[2025-12-29T10:37:21.175] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:F:\honmenOSProject\SimpleCalculator\build-profile.json5 cache by regenerate.
+[2025-12-29T10:37:21.176] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\generated\profile\default\BuildProfile.ets cache.
+[2025-12-29T10:37:21.176] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:1 ms .
+[2025-12-29T10:37:21.176] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-12-29T10:37:21.176] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-12-29T10:37:21.176] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2025-12-29T10:37:21.176] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\process_profile\default\module.json cache.
+[2025-12-29T10:37:21.176] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2025-12-29T10:37:21.176] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:F:\honmenOSProject\SimpleCalculator\entry\oh-package.json5 cache by regenerate.
+[2025-12-29T10:37:21.176] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:F:\honmenOSProject\SimpleCalculator\oh-package.json5 cache by regenerate.
+[2025-12-29T10:37:21.176] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:F:\honmenOSProject\SimpleCalculator\entry\src\main\module.json5 cache by regenerate.
+[2025-12-29T10:37:21.176] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\router_map\default\temp-router-map.json cache.
+[2025-12-29T10:37:21.177] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\router_map\default\loader-router-map.json cache.
+[2025-12-29T10:37:21.177] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:1 ms .
+[2025-12-29T10:37:21.177] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:F:\honmenOSProject\SimpleCalculator\entry\oh-package.json5 cache by regenerate.
+[2025-12-29T10:37:21.177] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:F:\honmenOSProject\SimpleCalculator\oh-package.json5 cache by regenerate.
+[2025-12-29T10:37:21.177] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:F:\honmenOSProject\SimpleCalculator\entry\src\main\module.json5 cache by regenerate.
+[2025-12-29T10:37:21.177] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\share_config\default\temp-share-config.json cache.
+[2025-12-29T10:37:21.177] [DEBUG] debug-file - Incremental task entry:default@ProcessShareConfig post-execution cost:1 ms .
+[2025-12-29T10:37:21.177] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\startup\default\startup_config.json cache.
+[2025-12-29T10:37:21.177] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig post-execution cost:1 ms .
+[2025-12-29T10:37:21.178] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\router_map\default\temp-router-map.json cache by regenerate.
+[2025-12-29T10:37:21.178] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\loader\default\loader.json cache.
+[2025-12-29T10:37:21.178] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:1 ms .
+[2025-12-29T10:37:21.178] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:F:\honmenOSProject\SimpleCalculator\entry\src\main\resources cache by regenerate.
+[2025-12-29T10:37:21.179] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2025-12-29T10:37:21.180] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\res\default cache.
+[2025-12-29T10:37:21.181] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\generated\r\default cache.
+[2025-12-29T10:37:21.181] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource post-execution cost:4 ms .
+[2025-12-29T10:37:21.181] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile input file:F:\honmenOSProject\SimpleCalculator\entry\src\main\resources\base\profile cache by regenerate.
+[2025-12-29T10:37:21.181] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\res\default\resources\base\profile cache.
+[2025-12-29T10:37:21.182] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile post-execution cost:1 ms .
+[2025-12-29T10:37:21.182] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\res\default\module.json cache.
+[2025-12-29T10:37:21.182] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json cache.
+[2025-12-29T10:37:21.182] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets post-execution cost:1 ms .
+[2025-12-29T10:37:21.182] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\loader\default cache by regenerate.
+[2025-12-29T10:37:21.182] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-12-29T10:37:21.183] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2025-12-29T10:37:21.183] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-12-29T10:37:21.183] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\honmenOSProject\SimpleCalculator\entry\src\main\ets cache by regenerate.
+[2025-12-29T10:37:21.184] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-12-29T10:37:21.184] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\loader_out\default\ets cache.
+[2025-12-29T10:37:21.184] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:2 ms .
+[2025-12-29T10:37:21.193] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-12-29T10:37:21.193] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-12-29T10:37:22.304] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-12-29T10:37:22.304] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-12-29T10:37:22.318] [DEBUG] debug-file - bad codeSnippet [object Object]
+[2025-12-29T10:37:22.328] [DEBUG] debug-file - watch worker: worker is ready to be terminated.
+[2025-12-29T10:37:22.328] [DEBUG] debug-file - Server currently has 0 watch-worker
+[2025-12-29T10:37:27.365] [DEBUG] debug-file - session manager: set active socket. socketId=plIXsvmnPTOdzm5HAAAF
+[2025-12-29T10:37:27.381] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-12-29T10:37:27.383] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined
+}
+[2025-12-29T10:37:27.385] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-12-29T10:37:27.386] [DEBUG] debug-file - hvigorfile, resolving F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+[2025-12-29T10:37:27.389] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-12-29T10:37:27.389] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-12-29T10:37:27.392] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-12-29T10:37:27.392] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-12-29T10:37:27.392] [DEBUG] debug-file - Product 'default' build option initialized
+[2025-12-29T10:37:27.392] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-12-29T10:37:27.392] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2025-12-29T10:37:27.392] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-12-29T10:37:27.394] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-12-29T10:37:27.417] [DEBUG] debug-file - Sdk init in 25 ms 
+[2025-12-29T10:37:27.419] [DEBUG] debug-file - Project task initialization takes 2 ms 
+[2025-12-29T10:37:27.420] [DEBUG] debug-file - hvigorfile, resolve finished F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+[2025-12-29T10:37:27.420] [DEBUG] debug-file - hvigorfile, resolving F:\honmenOSProject\SimpleCalculator\entry\hvigorfile.ts
+[2025-12-29T10:37:27.423] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-12-29T10:37:27.423] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-12-29T10:37:27.424] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:37:27.428] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-12-29T10:37:27.429] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-12-29T10:37:27.429] [DEBUG] debug-file - hvigorfile, resolve finished F:\honmenOSProject\SimpleCalculator\entry\hvigorfile.ts
+[2025-12-29T10:37:27.441] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 13 ms 
+[2025-12-29T10:37:27.442] [DEBUG] debug-file - project has submodules:entry
+[2025-12-29T10:37:27.442] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-12-29T10:37:27.444] [DEBUG] debug-file - load to the disk finished
+[2025-12-29T10:37:27.444] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-12-29T10:37:27.445] [DEBUG] debug-file - Module SimpleCalculator Collected Dependency: 
+[2025-12-29T10:37:27.445] [DEBUG] debug-file - Module SimpleCalculator's total dependency: 0
+[2025-12-29T10:37:27.445] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-12-29T10:37:27.446] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-12-29T10:37:27.446] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-12-29T10:37:27.447] [DEBUG] debug-file - Configuration phase cost:62 ms 
+[2025-12-29T10:37:27.448] [DEBUG] debug-file - Configuration task cost before running: 67 ms 
+[2025-12-29T10:37:27.449] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-12-29T10:37:27.450] [DEBUG] debug-file - Task 'entry:default@PreBuild' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:27.454] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 4 ms .
+[2025-12-29T10:37:27.454] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.2968902587890625
+[2025-12-29T10:37:27.455] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-12-29T10:37:27.455] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2025-12-29T10:37:27.455] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:27.456] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.04236602783203125
+[2025-12-29T10:37:27.456] [DEBUG] debug-file - runTaskFromQueue task cost before running: 75 ms 
+[2025-12-29T10:37:27.456] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 1 ms 
+[2025-12-29T10:37:27.456] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-12-29T10:37:27.457] [DEBUG] debug-file - Task 'entry:default@MergeProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:27.458] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 2 ms .
+[2025-12-29T10:37:27.458] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.15933990478515625
+[2025-12-29T10:37:27.458] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-12-29T10:37:27.459] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-12-29T10:37:27.459] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:27.460] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2025-12-29T10:37:27.460] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.09806060791015625
+[2025-12-29T10:37:27.460] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-12-29T10:37:27.461] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-12-29T10:37:27.461] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01642608642578125
+[2025-12-29T10:37:27.461] [DEBUG] debug-file - runTaskFromQueue task cost before running: 80 ms 
+[2025-12-29T10:37:27.461] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-12-29T10:37:27.462] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-12-29T10:37:27.464] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:27.464] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.41864013671875
+[2025-12-29T10:37:27.464] [DEBUG] debug-file - runTaskFromQueue task cost before running: 83 ms 
+[2025-12-29T10:37:27.464] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 3 ms 
+[2025-12-29T10:37:27.466] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-12-29T10:37:27.466] [DEBUG] debug-file - Task 'entry:default@ProcessProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:27.467] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-12-29T10:37:27.467] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.13165283203125
+[2025-12-29T10:37:27.467] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-12-29T10:37:27.467] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-12-29T10:37:27.468] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 1 ms .
+[2025-12-29T10:37:27.468] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.11869049072265625
+[2025-12-29T10:37:27.468] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-12-29T10:37:27.469] [DEBUG] debug-file - Executing task :entry:default@ProcessShareConfig
+[2025-12-29T10:37:27.470] [DEBUG] debug-file - Incremental task entry:default@ProcessShareConfig pre-execution cost: 1 ms .
+[2025-12-29T10:37:27.470] [DEBUG] debug-file - entry : default@ProcessShareConfig cost memory 0.10396575927734375
+[2025-12-29T10:37:27.470] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessShareConfig...  
+[2025-12-29T10:37:27.471] [DEBUG] debug-file - Executing task :entry:default@ProcessStartupConfig
+[2025-12-29T10:37:27.471] [DEBUG] debug-file - Task 'entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:27.471] [DEBUG] debug-file - entry:default@ProcessStartupConfig is not up-to-date, since the output file 'F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\startup\default\startup_config.json' does not exist.
+[2025-12-29T10:37:27.471] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig pre-execution cost: 1 ms .
+[2025-12-29T10:37:27.471] [DEBUG] debug-file - entry : default@ProcessStartupConfig cost memory 0.09300994873046875
+[2025-12-29T10:37:27.471] [DEBUG] debug-file - runTaskFromQueue task cost before running: 90 ms 
+[2025-12-29T10:37:27.472] [INFO] debug-file - Finished :entry:default@ProcessStartupConfig... after 1 ms 
+[2025-12-29T10:37:27.472] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
+[2025-12-29T10:37:27.473] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
+[2025-12-29T10:37:27.473] [DEBUG] debug-file - Task 'entry:default@PreviewProcessResource' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:27.473] [DEBUG] debug-file - entry : default@PreviewProcessResource cost memory 0.05217742919921875
+[2025-12-29T10:37:27.473] [DEBUG] debug-file - runTaskFromQueue task cost before running: 92 ms 
+[2025-12-29T10:37:27.473] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 1 ms 
+[2025-12-29T10:37:27.474] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-12-29T10:37:27.475] [DEBUG] debug-file - Task 'entry:default@GenerateLoaderJson' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:27.478] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 2 ms .
+[2025-12-29T10:37:27.478] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.5048065185546875
+[2025-12-29T10:37:27.479] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-12-29T10:37:27.480] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
+[2025-12-29T10:37:27.480] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
+[2025-12-29T10:37:27.484] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource pre-execution cost: 4 ms .
+[2025-12-29T10:37:27.484] [DEBUG] debug-file - entry : default@PreviewCompileResource cost memory 0.5145492553710938
+[2025-12-29T10:37:27.484] [INFO] debug-file - UP-TO-DATE :entry:default@PreviewCompileResource...  
+[2025-12-29T10:37:27.484] [DEBUG] debug-file - Executing task :entry:default@PreviewHookCompileResource
+[2025-12-29T10:37:27.484] [DEBUG] debug-file - entry : default@PreviewHookCompileResource cost memory 0.01760101318359375
+[2025-12-29T10:37:27.484] [DEBUG] debug-file - runTaskFromQueue task cost before running: 103 ms 
+[2025-12-29T10:37:27.484] [INFO] debug-file - Finished :entry:default@PreviewHookCompileResource... after 1 ms 
+[2025-12-29T10:37:27.485] [DEBUG] debug-file - Executing task :entry:default@CopyPreviewProfile
+[2025-12-29T10:37:27.485] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile pre-execution cost: 1 ms .
+[2025-12-29T10:37:27.485] [DEBUG] debug-file - entry : default@CopyPreviewProfile cost memory 0.083099365234375
+[2025-12-29T10:37:27.486] [INFO] debug-file - UP-TO-DATE :entry:default@CopyPreviewProfile...  
+[2025-12-29T10:37:27.486] [DEBUG] debug-file - Executing task :entry:default@ReplacePreviewerPage
+[2025-12-29T10:37:27.486] [DEBUG] debug-file - entry : default@ReplacePreviewerPage cost memory 0.0175628662109375
+[2025-12-29T10:37:27.486] [DEBUG] debug-file - runTaskFromQueue task cost before running: 105 ms 
+[2025-12-29T10:37:27.486] [INFO] debug-file - Finished :entry:default@ReplacePreviewerPage... after 1 ms 
+[2025-12-29T10:37:27.486] [DEBUG] debug-file - Executing task :entry:buildPreviewerResource
+[2025-12-29T10:37:27.487] [DEBUG] debug-file - entry : buildPreviewerResource cost memory 0.014404296875
+[2025-12-29T10:37:27.487] [DEBUG] debug-file - runTaskFromQueue task cost before running: 105 ms 
+[2025-12-29T10:37:27.487] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
+[2025-12-29T10:37:27.487] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
+[2025-12-29T10:37:27.488] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets pre-execution cost: 1 ms .
+[2025-12-29T10:37:27.488] [DEBUG] debug-file - entry : default@PreviewUpdateAssets cost memory 0.10587310791015625
+[2025-12-29T10:37:27.488] [INFO] debug-file - UP-TO-DATE :entry:default@PreviewUpdateAssets...  
+[2025-12-29T10:37:27.489] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
+[2025-12-29T10:37:27.489] [DEBUG] debug-file - obfuscationOptions: undefined
+[2025-12-29T10:37:27.490] [DEBUG] debug-file - Task 'entry:default@PreviewArkTS' cost while wrapping incremental declarations: 1 ms 
+[2025-12-29T10:37:27.492] [DEBUG] debug-file - entry:default@PreviewArkTS is not up-to-date, since the output file 'F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\loader_out\default\ets' does not exist.
+[2025-12-29T10:37:27.492] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS pre-execution cost: 2 ms .
+[2025-12-29T10:37:27.496] [DEBUG] debug-file - session manager: binding session. socketId=plIXsvmnPTOdzm5HAAAF, threadId=1@2.
+[2025-12-29T10:37:27.496] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 1.8785781860351562
+[2025-12-29T10:37:28.992] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-12-29T10:37:28.993] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-12-29T10:37:31.554] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-12-29T10:37:31.554] [DEBUG] debug-file - Ark compile finished.
+[2025-12-29T10:37:31.555] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-12-29T10:37:31.554] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-12-29T10:37:31.556] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-12-29T10:37:31.555] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 4 s 66 ms 
+[2025-12-29T10:37:31.555] [DEBUG] debug-file - Executing task :entry:PreviewBuild
+[2025-12-29T10:37:31.555] [DEBUG] debug-file - entry : PreviewBuild cost memory 0.01422882080078125
+[2025-12-29T10:37:31.555] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 174 ms 
+[2025-12-29T10:37:31.556] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
+[2025-12-29T10:37:31.560] [INFO] debug-file - BUILD SUCCESSFUL in 4 s 179 ms 
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\generated\profile\default\ModuleInfo.ts cache.
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessShareConfig is up-to-date.
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\startup\default\startup_config.json cache.
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig post-execution cost:1 ms .
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreviewCompileResource is up-to-date.
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CopyPreviewProfile is up-to-date.
+[2025-12-29T10:37:31.561] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreviewUpdateAssets is up-to-date.
+[2025-12-29T10:37:31.562] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\loader\default cache by regenerate.
+[2025-12-29T10:37:31.563] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-12-29T10:37:31.563] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2025-12-29T10:37:31.563] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-12-29T10:37:31.563] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\honmenOSProject\SimpleCalculator\entry\src\main\ets cache by regenerate.
+[2025-12-29T10:37:31.564] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-12-29T10:37:31.564] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:F:\honmenOSProject\SimpleCalculator\entry\.preview\default\intermediates\loader_out\default\ets cache.
+[2025-12-29T10:37:31.564] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:3 ms .
+[2025-12-29T10:37:31.574] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-12-29T10:37:31.574] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-12-29T10:38:24.466] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-12-29T10:38:24.466] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-12-29T10:38:24.483] [DEBUG] debug-file - bad codeSnippet [object Object]
+[2025-12-29T10:38:24.490] [DEBUG] debug-file - watch worker: worker is ready to be terminated.
+[2025-12-29T10:38:24.490] [DEBUG] debug-file - Server currently has 0 watch-worker
+[2025-12-29T10:38:53.978] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-12-29T10:38:54.255] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined
+}
+[2025-12-29T10:38:55.226] [DEBUG] debug-file - hvigorfile, require result:  { appTasks: [Getter] }
+[2025-12-29T10:38:55.351] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-12-29T10:38:55.353] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2025-12-29T10:38:55.359] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-12-29T10:38:55.389] [DEBUG] debug-file - Project task initialization takes 4 ms 
+[2025-12-29T10:38:55.403] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2025-12-29T10:38:55.409] [DEBUG] debug-file - project has submodules:entry
+[2025-12-29T10:38:55.415] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-12-29T10:38:53.979] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.5', dependencies: {} }
+[2025-12-29T10:38:54.257] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-12-29T10:38:55.432] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-12-29T10:38:55.227] [DEBUG] debug-file - hvigorfile, binding system plugins { appTasks: [Getter] }
+[2025-12-29T10:38:55.351] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-12-29T10:38:55.354] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-12-29T10:38:55.384] [DEBUG] debug-file - Sdk init in 30 ms 
+[2025-12-29T10:38:55.389] [DEBUG] debug-file - hvigorfile, resolve finished F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+[2025-12-29T10:38:55.404] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:38:55.409] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-12-29T10:38:55.416] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-12-29T10:38:53.980] [DEBUG] debug-file - env: daemon=false
+[2025-12-29T10:38:54.258] [DEBUG] debug-file - hvigorfile, resolving F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+[2025-12-29T10:38:55.433] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-12-29T10:38:55.351] [DEBUG] debug-file - Product 'default' build option initialized
+[2025-12-29T10:38:55.355] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-12-29T10:38:55.389] [DEBUG] debug-file - hvigorfile, resolving F:\honmenOSProject\SimpleCalculator\entry\hvigorfile.ts
+[2025-12-29T10:38:55.404] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:38:53.980] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc
+[2025-12-29T10:38:55.434] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2025-12-29T10:38:55.412] [DEBUG] debug-file - load to the disk finished
+[2025-12-29T10:38:55.416] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-12-29T10:38:55.351] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-12-29T10:38:55.357] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-12-29T10:38:55.393] [DEBUG] debug-file - hvigorfile, require result:  { hapTasks: [Getter] }
+[2025-12-29T10:38:55.404] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:38:55.435] [DEBUG] debug-file - Clear worker 0.
+[2025-12-29T10:38:55.412] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-12-29T10:38:55.418] [DEBUG] debug-file - Configuration phase cost:1 s 161 ms 
+[2025-12-29T10:38:55.394] [DEBUG] debug-file - hvigorfile, binding system plugins { hapTasks: [Getter] }
+[2025-12-29T10:38:55.404] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-12-29T10:38:55.414] [DEBUG] debug-file - Module SimpleCalculator Collected Dependency: 
+[2025-12-29T10:38:55.435] [DEBUG] debug-file - Worker 0 has been cleared.
+[2025-12-29T10:38:55.394] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- F:\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2025-12-29T10:38:55.419] [DEBUG] debug-file - Configuration task cost before running: 1 s 170 ms 
+[2025-12-29T10:38:55.404] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:38:55.414] [DEBUG] debug-file - Module SimpleCalculator's total dependency: 0
+[2025-12-29T10:38:55.435] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-12-29T10:38:55.419] [DEBUG] debug-file - Executing task :entry:init
+[2025-12-29T10:38:55.404] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:38:55.435] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-12-29T10:38:55.420] [DEBUG] debug-file - entry : init cost memory 0.01412200927734375
+[2025-12-29T10:38:55.404] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:38:55.435] [DEBUG] debug-file - Clear worker 1.
+[2025-12-29T10:38:55.420] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 171 ms 
+[2025-12-29T10:38:55.435] [DEBUG] debug-file - Worker 1 has been cleared.
+[2025-12-29T10:38:55.404] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-12-29T10:38:55.420] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-12-29T10:38:55.435] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-12-29T10:38:55.420] [DEBUG] debug-file - Executing task ::init
+[2025-12-29T10:38:55.404] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:38:55.435] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-12-29T10:38:55.421] [DEBUG] debug-file - SimpleCalculator : init cost memory 0.01140594482421875
+[2025-12-29T10:38:55.404] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:38:55.435] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-12-29T10:38:55.421] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 172 ms 
+[2025-12-29T10:38:55.404] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:38:55.438] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-12-29T10:38:55.421] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-12-29T10:38:55.404] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-12-29T10:38:55.440] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-12-29T10:38:55.426] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-12-29T10:38:55.408] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2025-12-29T10:38:55.440] [DEBUG] debug-file - Current worker pool is terminated.
+[2025-12-29T10:38:55.430] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-12-29T10:38:55.408] [DEBUG] debug-file - hvigorfile, resolve finished F:\honmenOSProject\SimpleCalculator\entry\hvigorfile.ts
+[2025-12-29T10:38:55.431] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-12-29T10:39:34.350] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-12-29T10:39:34.382] [DEBUG] debug-file - env: daemon=true
+[2025-12-29T10:39:34.351] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.5', dependencies: {} }
+[2025-12-29T10:39:34.807] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-12-29T10:39:34.811] [DEBUG] debug-file - java daemon started at port 45050 pid 3396
+[2025-12-29T10:39:34.838] [DEBUG] debug-file - session manager: set active socket. socketId=c-Xxy5mWvVsVBgCIAAAB
+[2025-12-29T10:39:35.325] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-12-29T10:39:35.331] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined
+}
+[2025-12-29T10:39:35.333] [DEBUG] debug-file - Cache service initialization finished in 3 ms 
+[2025-12-29T10:39:35.335] [DEBUG] debug-file - hvigorfile, resolving F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+[2025-12-29T10:39:36.335] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-12-29T10:39:36.335] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-12-29T10:39:36.461] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-12-29T10:39:36.461] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-12-29T10:39:36.462] [DEBUG] debug-file - Product 'default' build option initialized
+[2025-12-29T10:39:36.462] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-12-29T10:39:36.463] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2025-12-29T10:39:36.465] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-12-29T10:39:36.466] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-12-29T10:39:36.468] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-12-29T10:39:36.469] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-12-29T10:39:36.495] [DEBUG] debug-file - Sdk init in 30 ms 
+[2025-12-29T10:39:36.499] [DEBUG] debug-file - Project task initialization takes 3 ms 
+[2025-12-29T10:39:36.499] [DEBUG] debug-file - hvigorfile, resolve finished F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+[2025-12-29T10:39:36.499] [DEBUG] debug-file - hvigorfile, resolving F:\honmenOSProject\SimpleCalculator\entry\hvigorfile.ts
+[2025-12-29T10:39:36.502] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-12-29T10:39:36.503] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-12-29T10:39:36.503] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- F:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- F:\honmenOSProject\SimpleCalculator\hvigorfile.ts
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- F:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2025-12-29T10:39:36.511] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2025-12-29T10:39:36.511] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:39:36.512] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:39:36.512] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:39:36.512] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-12-29T10:39:36.512] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:39:36.512] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:39:36.512] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:39:36.512] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-12-29T10:39:36.512] [DEBUG] debug-file - Target 'default' config initialized
+[2025-12-29T10:39:36.512] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-12-29T10:39:36.512] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-12-29T10:39:36.512] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-12-29T10:39:36.516] [DEBUG] debug-file - Module entry task initialization takes 4 ms 
+[2025-12-29T10:39:36.516] [DEBUG] debug-file - hvigorfile, resolve finished F:\honmenOSProject\SimpleCalculator\entry\hvigorfile.ts
+[2025-12-29T10:39:36.529] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 12 ms 
+[2025-12-29T10:39:36.529] [DEBUG] debug-file - project has submodules:entry
+[2025-12-29T10:39:36.533] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-12-29T10:39:36.535] [DEBUG] debug-file - Module SimpleCalculator Collected Dependency: 
+[2025-12-29T10:39:36.535] [DEBUG] debug-file - Module SimpleCalculator's total dependency: 0
+[2025-12-29T10:39:36.535] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-12-29T10:39:36.537] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-12-29T10:39:36.537] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-12-29T10:39:36.539] [DEBUG] debug-file - Configuration phase cost:1 s 205 ms 
+[2025-12-29T10:39:36.540] [DEBUG] debug-file - Configuration task cost before running: 1 s 213 ms 
+[2025-12-29T10:39:36.541] [DEBUG] debug-file - Executing task :entry:clean
+[2025-12-29T10:39:36.541] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-12-29T10:39:36.541] [DEBUG] debug-file - entry : clean cost memory 0.08490753173828125
+[2025-12-29T10:39:36.542] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 215 ms 
+[2025-12-29T10:39:36.542] [INFO] debug-file - Finished :entry:clean... after 1 ms 
+[2025-12-29T10:39:36.542] [DEBUG] debug-file - Executing task ::clean
+[2025-12-29T10:39:36.542] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-12-29T10:39:36.542] [DEBUG] debug-file - SimpleCalculator : clean cost memory 0.02744293212890625
+[2025-12-29T10:39:36.542] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 216 ms 
+[2025-12-29T10:39:36.543] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2025-12-29T10:39:36.547] [INFO] debug-file - BUILD SUCCESSFUL in 1 s 220 ms 
+[2025-12-29T10:39:36.559] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-12-29T10:39:36.559] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-12-29T10:39:36.561] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-12-29T10:39:36.561] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-12-29T10:39:36.559] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-12-29T10:39:36.561] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-12-29T10:39:36.563] [DEBUG] debug-file - Cleanup worker 0.
+[2025-12-29T10:39:36.563] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-12-29T10:39:36.563] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-12-29T10:39:36.563] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-12-29T10:39:36.563] [DEBUG] debug-file - Cleanup worker 1.
+[2025-12-29T10:39:36.563] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-12-29T10:39:36.563] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-12-29T10:39:36.563] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-12-29T10:39:36.564] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-12-29T10:39:36.565] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-12-29T10:39:36.565] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-12-29T10:39:36.567] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-12-29T10:39:36.569] [DEBUG] debug-file - worker[1] exits with exit code 0.
