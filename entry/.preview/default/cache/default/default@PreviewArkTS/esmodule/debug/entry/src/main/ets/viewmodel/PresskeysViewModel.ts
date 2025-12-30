@@ -1,39 +1,52 @@
 import { PressKeysBean } from "@bundle:com.example.simplecalculator/entry/ets/viewmodel/PressKeysItem";
+/**
+ * 键盘视图模型 (ViewModel)
+ * 负责提供计算器键盘的布局数据源。
+ */
 export class PressKeysBeanViewModel {
     /**
-     * Key array data.
+     * 获取按键数据数组。
+     * 这是一个二维数组，每一个内部数组代表计算器界面上的一列 (Column)。
+     * * @return Array<Array<PressKeysBean>> 按键对象集合
      */
     getPressKeys(): Array<Array<PressKeysBean>> {
         return [
+            // 第一列数据 (从上到下: 清除, 7, 4, 1, %)
             [
+                // 参数说明: (类型:0图标/1文字, 宽/字体大小, 高, 逻辑值, 图片资源)
                 new PressKeysBean(0, '32vp', '32vp', 'clean', { "id": 16777248, "type": 20000, params: [], "bundleName": "com.example.simplecalculator", "moduleName": "entry" }),
                 new PressKeysBean(1, '19vp', '43vp', '7'),
                 new PressKeysBean(1, '19vp', '43vp', '4'),
                 new PressKeysBean(1, '19vp', '43vp', '1'),
-                new PressKeysBean(1, '25vp', '43vp', '%')
+                new PressKeysBean(1, '25vp', '43vp', '%') // 百分号
             ],
+            // 第二列数据 (从上到下: 除号, 8, 5, 2, 0)
             [
                 new PressKeysBean(0, '32vp', '32vp', 'div', { "id": 16777246, "type": 20000, params: [], "bundleName": "com.example.simplecalculator", "moduleName": "entry" }),
                 new PressKeysBean(1, '19vp', '43vp', '8'),
                 new PressKeysBean(1, '19vp', '43vp', '5'),
                 new PressKeysBean(1, '19vp', '43vp', '2'),
-                new PressKeysBean(1, '19vp', '43vp', '0')
+                new PressKeysBean(1, '19vp', '43vp', '0') // 数字 0
             ],
+            // 第三列数据 (从上到下: 乘号, 9, 6, 3, 小数点)
             [
                 new PressKeysBean(0, '32vp', '32vp', 'mul', { "id": 16777247, "type": 20000, params: [], "bundleName": "com.example.simplecalculator", "moduleName": "entry" }),
                 new PressKeysBean(1, '19vp', '43vp', '9'),
                 new PressKeysBean(1, '19vp', '43vp', '6'),
                 new PressKeysBean(1, '19vp', '43vp', '3'),
-                new PressKeysBean(1, '19vp', '43vp', '.')
+                new PressKeysBean(1, '19vp', '43vp', '.') // 小数点
             ],
+            // 第四列数据 (功能键列: 删除, 减号, 加号, 等于)
+            // 注意：这一列的元素比前三列少一个，通常意味着某些键高度较高（如等于号可能占两行），或者UI布局特殊。
             [
                 new PressKeysBean(0, '30.48vp', '20vp', 'del', { "id": 16777218, "type": 20000, params: [], "bundleName": "com.example.simplecalculator", "moduleName": "entry" }),
                 new PressKeysBean(0, '24vp', '24vp', 'min', { "id": 16777243, "type": 20000, params: [], "bundleName": "com.example.simplecalculator", "moduleName": "entry" }),
                 new PressKeysBean(0, '32vp', '32vp', 'add', { "id": 16777245, "type": 20000, params: [], "bundleName": "com.example.simplecalculator", "moduleName": "entry" }),
-                new PressKeysBean(0, '32vp', '32vp', 'equ', { "id": 16777219, "type": 20000, params: [], "bundleName": "com.example.simplecalculator", "moduleName": "entry" })
+                new PressKeysBean(0, '32vp', '32vp', 'equ', { "id": 16777219, "type": 20000, params: [], "bundleName": "com.example.simplecalculator", "moduleName": "entry" }) // 等于键 (=)
             ]
         ];
     }
 }
+// 创建一个实例并导出，方便外部直接引用 (单例模式用法)
 let keysModel = new PressKeysBeanViewModel();
 export default keysModel as PressKeysBeanViewModel;
